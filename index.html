@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webform | html</title>
+</head>
+<body>
+    <form method="get" action="">
+        <!-- Input Type=text -->
+        <p>First Name:<input type="text" name="fname" id="First Name" required></p>
+        <p>Last Name:<input type="text" name="lname" id="Last Name" required></p>
+        <!-- input type=password -->
+        <p>Password: <input type="password" required></p>
+        <!-- button tag -->
+        <button><strong>Sign in</strong></button>
+        <br>
+        <hr>
+        <!-- input type:radio -->
+        <p>Gender</p>
+        <p>Male<input type="radio" name="Gender" id="Male" value="Gender">
+        Female<input type="radio" name="Gender" id="female" value="Gender">
+        Other<input type="radio" name="Gender" id="Other" value="Gender"></p>
+        <hr>
+        <strong>Gender</strong>
+        <p>Male<input type="radio" name="Gender" id="Male" value="Gender"><br>
+        Female<input type="radio" name="Gender" id="female" value="Gender"><br>
+        Other<input type="radio" name="Gender" id="Other" value="Gender"></p>
+        
+        <!-- input type:checkbox -->
+        <strong>Vehicles</strong>
+        <p>Car<input type="checkbox" id="Car" value="Vehicles" name="Vehicles"></p>
+        <p>Bike<input type="checkbox" id="Bike" value="Vehicles" name="Vehicles"></p>   
+        <p>Boat<input type="checkbox" id="Boat" value="Vehicles" name="Vehicles"></p>   
+        <hr>
+        <!-- input type:file -->
+        <strong>Upload Resume</strong>
+        <br>
+        <br>
+        <input type="file" name="Resume" id="file"> 
+        <br> 
+        <br> 
+        <br> 
+        <hr>
+        <!--input type:submit-->
+        <input type="submit" value="submit" id="submit">
+        <!-- input type:reset -->
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="reset" id="reset">
+        <hr>
+        
+        <!--textarea element-->
+        <h3>Address</h3>
+        <textarea name="Description" id="Description" cols="100" rows="10"></textarea>
+        <br>
+        <!-- input type:image -->
+        <input type="image" src="./submitbutton.jpg" alt="Submit">
+        <br>
+        <!--select element-->
+        <strong>Select Your City:</strong>
+        
+        <select name="City" id="City">
+            <option value=""></option>
+            <option value=""><b>--select your city--</b> </option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Lucknow">Lucknow</option>
+        </select>
+    </form>
+    
+</body>
+</html>
